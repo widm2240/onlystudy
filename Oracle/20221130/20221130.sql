@@ -427,5 +427,5 @@ DELETE FROM exam1 WHERE id = 100;
 
 SELECT * FROM exam2;
 SELECT * FROM exam1;
-
+commit;
 -- 
