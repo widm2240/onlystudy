@@ -1,11 +1,16 @@
 -- 문제 1
-select * from tb_point;
+SELECT * 
+FROM tb_point;
 
 -- 문제 2
-select customer_cd, point_memo, point from tb_point;
+SELECT customer_cd, point_memo, point 
+FROM tb_point;
 
 -- 문제 3 
-select customer_cd as "고객코드", point_memo as "포인트 내용", point as "포인트" from tb_point;
+SELECT customer_cd AS "고객코드", 
+point_memo AS "포인트 내용", 
+point AS "포인트" 
+FROM tb_point;
 
 -- 문제 4
 select customer_cd, customer_nm, email, total_point from tb_customer where total_point < 10000;
