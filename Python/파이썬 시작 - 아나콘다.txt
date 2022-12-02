@@ -1,0 +1,28 @@
+*개발환경 (인프라 개발 : 개발자들의 개발환경을 구성하고 관리)
+*파이썬 개발환경
+아나콘다에서 파이썬의 다양한 라이브러리를 관리하고, 
+(솔루션에 맞는 데이터 개발자들의 개발환경을 직관적으로 구성)하기 위한
+개발환경 패키지
+
+1. 아나콘다 개발환경 구성
+윈도우 키 > anaconda prompt 
+conda create --name newStart python==3.9
+
+2. 개발환경 목록 보기
+conda env list
+
+3. 만들어진 개발환경으로 접속하기
+conda activate newStart
+
+4. 접속한 개발환경의 패키지 목록 보기
+conda list
+
+5. 설치할 패키지
+conda install jupyterlab
+conda install seaborn
+pip install sklearn
+conda install openpyxl
+pip install folium
+
+6. 주피터 랩 실행
+jupyter lab

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+		  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.study.springboot.jdbc.iOrder">
+	<insert id="addOrder">
+		insert into sold_list 
+		     values (#{param1},#{param2},#{param3},#{param4},
+					to_char(sysdate,'YYYYMMDDHHMISS'))
+	</insert>
+	<select id="getSalesList" resultType="com.study.springboot.jdbc.salesDTO">
+		select mobile,menu,qty,price,created from sold_list 
+		 where substr(created,1,8) between #{param1} and #{param2} order by created desc
+	</select>
+	<select id="getTotal" resultType="int">
+	   select sum(price) from sold_list where substr(created,1,8) between #{param1} and #{param2}
+	</select>
+</mapper>
