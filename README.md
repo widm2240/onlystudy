@@ -10,10 +10,14 @@
 
 ## ChatBot
 - 폴더명 : [ChatBot](/ChatBot/)
-
 - [영끌족_부동산_길잡이](https://chatbot.kakao.com/bot/636b163e3236e276c3159f56/intent/63746b4123b1d5001554c811?scenarioId=636dc0721a94d93e86de473d) 로그인 절차 필요
+
 ## Deep Learning
 - [test_folder](/DeepLarning/Test/)
+
+## 인공지능
+- [인공지능_README](/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/README.md)
+
 ## 그 외
 - [DSChloe](https://https://dschloe.github.io/about/)
     + 강사님 교육자료
@@ -32,3 +36,14 @@
 - [참고github_2](https://github.com/ne-choi/resume)
 - [요구사항정의서작성법](https://velog.io/@juyeon/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD-%EC%A0%95%EC%9D%98%EC%84%9C-%EC%9E%91%EC%84%B1%ED%95%98%EB%8A%94-%EB%B2%95)
 - [WBS작성법](https://lion-insight.tistory.com/3)
+- [TensorFlow](https://www.tensorflow.org/js)
+- [Scikit-Learn](https://scikit-learn.org/stable/)
+- [SciPy](scipy.org)
+- [LightGBM](https://lightgbm.readthedocs.io/en/v3.3.2/)
+- [paperswithcode](https://paperswithcode.com/)
+- [alexlenail](https://alexlenail.me/NN-SVG/)
+- [Arxiv](https://arxiv.org/abs/1512.03385)
+- [PyTorch](https://pytorch.org/)
+- [Wikidocs](https://wikidocs.net/book/2155)
+    + 딥 러닝을 이용한 자연어 처리 입문
+- [PyCaret](https://pycaret.gitbook.io/docs/)
